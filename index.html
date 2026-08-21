@@ -21,7 +21,6 @@
 }
 
 *{box-sizing:border-box}
-
 html{scroll-behavior:smooth}
 
 body{
@@ -65,9 +64,7 @@ font-size:14px;
 font-weight:650
 }
 
-.navlinks a:hover{
-color:var(--text)
-}
+.navlinks a:hover{color:var(--text)}
 
 .navcta{
 background:var(--dark);
@@ -101,9 +98,7 @@ letter-spacing:-.065em;
 margin:17px 0 22px
 }
 
-.hero h1 span{
-color:var(--accent)
-}
+.hero h1 span{color:var(--accent)}
 
 .hero p{
 font-size:19px;
@@ -156,13 +151,8 @@ object-fit:cover;
 object-position:center top
 }
 
-.section{
-padding:78px 0
-}
-
-.section.alt{
-background:var(--surface)
-}
+.section{padding:78px 0}
+.section.alt{background:var(--surface)}
 
 .section-head{
 display:flex;
@@ -240,9 +230,7 @@ aspect-ratio:16/9;
 object-fit:cover
 }
 
-.cardbody{
-padding:22px
-}
+.cardbody{padding:22px}
 
 .cardbody h3{
 font-size:24px;
@@ -277,7 +265,7 @@ color:var(--accent);
 font-size:14px
 }
 
-/* FIXED FEATURED YOUTUBE THUMBNAIL */
+/* YouTube FEATURED THUMBNAILS */
 .featured{
 display:grid;
 grid-template-columns:1.15fr .85fr;
@@ -299,7 +287,7 @@ overflow:hidden
 .featured .thumb img{
 width:100%;
 height:100%;
-object-fit:contain;
+object-fit:cover;
 display:block
 }
 
@@ -424,9 +412,7 @@ color:var(--accent);
 margin-bottom:8px
 }
 
-.step span{
-font-weight:800
-}
+.step span{font-weight:800}
 
 .contact{
 background:var(--dark);
@@ -508,46 +494,30 @@ grid-template-columns:1fr 1fr
 padding:26px
 }
 
-.navlinks{
-display:none
-}
+.navlinks{display:none}
 
 }
 
 @media(max-width:620px){
 
-.container{
-padding:0 17px
-}
+.container{padding:0 17px}
 
 .hero{
 padding:55px 0 65px;
 gap:35px
 }
 
-.hero h1{
-font-size:48px
-}
+.hero h1{font-size:48px}
 
-.hero p{
-font-size:17px
-}
+.hero p{font-size:17px}
 
-.section{
-padding:60px 0
-}
+.section{padding:60px 0}
 
-.section-head{
-display:block
-}
+.section-head{display:block}
 
-.section-head h2{
-font-size:32px
-}
+.section-head h2{font-size:32px}
 
-.grid{
-grid-template-columns:1fr
-}
+.grid{grid-template-columns:1fr}
 
 .servicegrid,
 .workflow{
@@ -559,17 +529,11 @@ width:100%;
 max-width:330px
 }
 
-.contact{
-padding:32px 24px
-}
+.contact{padding:32px 24px}
 
-.contact h2{
-font-size:38px
-}
+.contact h2{font-size:38px}
 
-.footer{
-display:block
-}
+.footer{display:block}
 
 .footer span{
 display:block;
@@ -585,6 +549,7 @@ margin-top:8px
 <div class="container">
 
 <nav class="nav">
+
 <a class="brand" href="#top">KAMRAN TAHIR</a>
 
 <div class="navlinks">
@@ -595,6 +560,7 @@ margin-top:8px
 </div>
 
 <a class="navcta" href="#contact">Hire Me</a>
+
 </nav>
 
 </div>
@@ -646,13 +612,9 @@ Let's Work Together
 
 <div>
 
-<div class="label">
-Selected work
-</div>
+<div class="label">Selected work</div>
 
-<h2>
-Proof, not just promises.
-</h2>
+<h2>Proof, not just promises.</h2>
 
 </div>
 
@@ -662,6 +624,8 @@ A mix of commercial AI video work and YouTube projects with real audience result
 
 </div>
 
+
+<!-- FEATURED YOUTUBE PROJECT -->
 
 <div class="featured">
 
@@ -674,7 +638,6 @@ alt="The Great Las Vegas Heist thumbnail"
 
 </div>
 
-
 <div class="featured-body">
 
 <div class="label">
@@ -686,7 +649,7 @@ The Great Las Vegas Heist
 </h3>
 
 <p>
-A long-form AI-assisted true-crime documentary about the $3.1 million Las Vegas armored-car heist. Built around cinematic AI visuals, storytelling, narration and editing.
+A long-form AI-assisted true-crime documentary about the $3.1 million Las Vegas armored-car heist. Built around cinematic AI visuals, storytelling, narration and professional editing.
 </p>
 
 <div class="stats">
@@ -727,6 +690,8 @@ Watch Project →
 
 <div class="grid">
 
+
+<!-- UGC AD -->
 
 <article class="card">
 
@@ -770,6 +735,8 @@ Short-form AI UGC advertising created for social-first product promotion, combin
 </article>
 
 
+<!-- AI COMMERCIAL -->
+
 <article class="card">
 
 <div class="media video-horizontal">
@@ -811,6 +778,8 @@ A 68-second commercial-style AI production built around cinematic product and li
 
 </article>
 
+
+<!-- MUSIC VIDEO -->
 
 <article class="card">
 
@@ -854,12 +823,14 @@ A cinematic AI-generated music video advertisement combining AI characters, life
 </article>
 
 
+<!-- YOUTUBE: PUDDING -->
+
 <article class="card">
 
 <div class="media">
 
 <img
-src="assets/heist-114k.jpg"
+src="assets/pudding-800k.jpg"
 alt="The Engineer Who Legally Stole $800,000"
 >
 
@@ -911,6 +882,8 @@ Watch Project →
 
 </article>
 
+
+<!-- YOUTUBE: CASINO -->
 
 <article class="card">
 
@@ -991,9 +964,7 @@ Watch Project →
 
 <div>
 
-<div class="label">
-What I create
-</div>
+<div class="label">What I create</div>
 
 <h2>
 AI video built for real clients.
@@ -1008,9 +979,7 @@ AI video built for real clients.
 
 <div class="service">
 
-<strong>
-AI UGC & Ads
-</strong>
+<strong>AI UGC & Ads</strong>
 
 <p>
 Scroll-stopping social ads, UGC-style content and product promotions.
@@ -1021,9 +990,7 @@ Scroll-stopping social ads, UGC-style content and product promotions.
 
 <div class="service">
 
-<strong>
-Product Commercials
-</strong>
+<strong>Product Commercials</strong>
 
 <p>
 Cinematic AI commercials and product-focused visual campaigns.
@@ -1034,9 +1001,7 @@ Cinematic AI commercials and product-focused visual campaigns.
 
 <div class="service">
 
-<strong>
-YouTube Content
-</strong>
+<strong>YouTube Content</strong>
 
 <p>
 Long-form documentaries, storytelling and faceless channel production.
@@ -1047,9 +1012,7 @@ Long-form documentaries, storytelling and faceless channel production.
 
 <div class="service">
 
-<strong>
-Short-Form Video
-</strong>
+<strong>Short-Form Video</strong>
 
 <p>
 Reels, Shorts and creative AI stories designed for social platforms.
@@ -1072,9 +1035,7 @@ Reels, Shorts and creative AI stories designed for social platforms.
 
 <div>
 
-<div class="label">
-Creative range
-</div>
+<div class="label">Creative range</div>
 
 <h2>
 Short-form AI storytelling.
